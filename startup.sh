@@ -36,4 +36,3 @@ EOF
 sed -i 's/$JENKINS_HOST/'"$JENKINS_HOST"'/g' /etc/nginx/conf.d/proxy.conf
 sed -i 's/$PROXY_DOMAIN/'"$PROXY_DOMAIN"'/g' /etc/nginx/conf.d/proxy.conf
 
-service nginx restart
